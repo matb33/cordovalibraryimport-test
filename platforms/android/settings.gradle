@@ -1,4 +1,3 @@
 // GENERATED FILE - DO NOT EDIT
 include ":"
-include ":test-library-plugin:cordovalibraryimport-framework"
 include ":CordovaLib"

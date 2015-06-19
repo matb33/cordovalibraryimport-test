@@ -15,20 +15,20 @@
         "is_top_level": true,
         "variables": {}
     },
-    "test-library-plugin": {
-        "source": {
-            "type": "local",
-            "path": "plugins-src/test-library-plugin"
-        },
-        "is_top_level": false,
-        "variables": {}
-    },
     "test-plugin": {
         "source": {
             "type": "local",
             "path": "/home/mike/data/git/cordovalibraryimport-test/plugins-src/test-plugin"
         },
         "is_top_level": true,
+        "variables": {}
+    },
+    "com.nuvyyo.tabloplayer": {
+        "source": {
+            "type": "local",
+            "path": "plugins-src/TabloPlayer"
+        },
+        "is_top_level": false,
         "variables": {}
     }
 }

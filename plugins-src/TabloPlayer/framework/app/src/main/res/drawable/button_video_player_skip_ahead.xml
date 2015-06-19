@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/icon_video_player_skip_ahead"
+          android:state_enabled="true"
+          android:state_pressed="false"/>
+
+    <item android:drawable="@drawable/icon_video_player_skip_ahead_pressed"
+          android:state_enabled="true"
+          android:state_pressed="true"/>
+
+    <item android:drawable="@drawable/icon_video_player_skip_ahead_disabled"
+          android:state_enabled="false"/>
+
+</selector>

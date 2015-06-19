@@ -9,10 +9,8 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-plugin-whitelist": "1.0.1-dev",
     "cordova-plugin-crosswalk-webview": "1.2.0",
-    "test-plugin": "1",
-    "test-library-plugin": "1"
+    "cordova-plugin-whitelist": "1.0.1-dev"
 }
 // BOTTOM OF METADATA
 });

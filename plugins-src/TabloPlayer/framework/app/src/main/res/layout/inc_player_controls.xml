@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tablo_dark_blue"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageButton
+        android:id="@+id/btnPlayPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/button_video_player_play" />
+
+    <ImageButton
+        android:id="@+id/btnSkipBackwards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/button_video_player_skip_back" />
+
+    <ImageButton
+        android:id="@+id/btnSkipForwards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/button_video_player_skip_ahead" />
+
+    <LinearLayout
+        android:id="@+id/videoPositionWrapper"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblVideoPosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:00"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0" />
+
+    <LinearLayout
+        android:id="@+id/videoDurationWrapper"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/lblVideoDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:00"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item"
+        android:id="@+id/btnClosedCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:text="CC"
+        />
+
+    <include
+        layout="@layout/media_route_button_conditional"
+        android:id="@+id/mediaRouteButtonContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

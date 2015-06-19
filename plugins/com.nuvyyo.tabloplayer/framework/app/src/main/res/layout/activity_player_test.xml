@@ -1,0 +1,163 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <EditText
+            android:id="@+id/txtPlaylistUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dip"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="Playlist Url"
+            android:inputType="textUri"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupStreamType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dip"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButtonLive"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:text="Live"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonRec"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:singleLine="true"
+                android:text="Recording"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonBBB"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:textSize="8sp"
+                android:singleLine="true"
+                android:text="Big Buck Bunny"/>
+
+        </RadioGroup>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:stretchColumns="1"
+            >
+
+            <TableRow android:layout_marginTop="8dip">
+
+                <TextView android:text="Start"/>
+
+                <EditText
+                    android:id="@+id/txtStartPosition"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:text="0"
+                    />
+
+                <TextView android:text="sec"/>
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView android:text="Title"/>
+
+                <EditText
+                    android:id="@+id/txtMediaTitle"
+                    android:layout_span="2"
+                    android:inputType="textAutoComplete|textAutoCorrect|textCapWords"
+                    android:singleLine="true"
+                    android:text="The Big Bang Theory"
+                    />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Subtitle"/>
+
+                <EditText
+                    android:id="@+id/txtMediaSubtitle"
+                    android:layout_span="2"
+                    android:inputType="textAutoComplete|textAutoCorrect|textCapWords"
+                    android:singleLine="true"
+                    android:text="The Tangerine Factor"
+                    />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Cover URL" />
+
+                <EditText
+                    android:id="@+id/txtMediaCover"
+                    android:layout_span="2"
+                    android:inputType="textAutoComplete|textAutoCorrect|textCapWords"
+                    android:singleLine="true"
+                    android:text="http://192.168.1.183/stream/thumb?id=79&amp;h=1431718878215"
+                    />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Background URL" />
+
+                <EditText
+                    android:id="@+id/txtMediaBackground"
+                    android:layout_span="2"
+                    android:inputType="textAutoComplete|textAutoCorrect|textCapWords"
+                    android:singleLine="true"
+                    android:text="http://192.168.1.183/stream/thumb?id=81&amp;h=1431718878215"
+                    />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="Thumbnail URL" />
+
+                <EditText
+                    android:id="@+id/txtMediaThumbnail"
+                    android:layout_span="2"
+                    android:inputType="textAutoComplete|textAutoCorrect|textCapWords"
+                    android:singleLine="true"
+                    android:text="http://192.168.1.183:8887/images/32757"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:text="Play"/>
+
+    </LinearLayout>
+
+</ScrollView>

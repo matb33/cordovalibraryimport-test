@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generic Colors -->
+    <color name="transparent">#00ffffff</color>
+
+    <color name="black">#FF000000</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_alpha_percent_10">#25ffffff</color>
+
+    <!-- Tablo Colors -->
+    <color name="tablo_dark_blue">#ff081b22</color>
+    <color name="tablo_blue">#ff00a1d7</color>
+    <color name="tablo_light_blue">#ff97afc2</color>
+
+    <color name="tablo_medium_gray">#ff666666</color>
+</resources>

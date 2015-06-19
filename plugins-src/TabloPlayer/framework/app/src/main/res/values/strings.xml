@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TabloPlayer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_player_test">PlayerTestActivity</string>
+</resources>

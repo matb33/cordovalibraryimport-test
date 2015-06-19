@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/mike/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/1.7.2/112366d8158749e25532ebce162232c6e0fb20a5/gson-1.7.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="112366d8158749e25532ebce162232c6e0fb20a5">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/gson-1.7.2-8454fd4a783f5771d510dab99a62e8111f95a575.jar" />
+    </item>
+    <item
+        jar="/home/mike/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.4.0/5b72bf48563ea8410e650de14aa33ff69a3e8c35/okio-1.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/okio-1.4.0-21c04671554ce6b0a5cebb1b8ac4f298e99fedc7.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-ea059546520b60f9d58faf6f8d6f7ab1aee5058b.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-2297a2e53e5de5150653db38a4642b4b2ea13ee8.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-4e7dae4ca04cb09b58381ffadf378b1ad37bdc87.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-c405bde1465fc13c107e65bea156f1bfc7df91dd.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-69e79d9da00fc519cdbc96821670e8c8349b0400.jar" />
+    </item>
+    <item
+        jar="/home/mike/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0-a7aaa2e895b6009c9d6432ddd0dcdab60746a1fb.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-325ee1296a2613def74f030978174ffcb0ff2758.jar" />
+    </item>
+    <item
+        jar="/home/mike/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-440adf133096c948305d4c7952b89672107b5566.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-5cd4cf5477c29a015cde554870f45201470184d8.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-bbeccc253617d0ab3a7755b18b83da0c9b1ba22b.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-fe18d35a699f177e06e469e34b252c9c683a43b8.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-d5799582bfe8a653aedf5936fd19a7b88f0d1f54.jar" />
+    </item>
+    <item
+        jar="/home/mike/applications/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-c219242c7592f87357e92c7d6289650a6871059e.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-b683f5e7c1e0b5b8307749d4f9df9a3d13f2c516.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-cf67d44ea09ad18f9e3dc02cbc16f403394bfe7b.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-ec5e8c781c3ea260165bd5eb39d84e912aff899c.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-fda221686d69bdb5b650ab2f4f1b206d3195f580.jar" />
+    </item>
+    <item
+        jar="/home/mike/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.10/c28ade6b57e4d4338b5fe0c9ac0e57805f1724f3/rxjava-1.0.10.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c28ade6b57e4d4338b5fe0c9ac0e57805f1724f3">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/rxjava-1.0.10-61b117544d728b79a6ed5c83a08cc0266963d69c.jar" />
+    </item>
+    <item
+        jar="/home/mike/.gradle/caches/modules-2/files-2.1/io.reactivex/rxandroid/0.24.0/42dab493b8f74b164e082f281480c9d493ff89da/rxandroid-0.24.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="42dab493b8f74b164e082f281480c9d493ff89da">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/rxandroid-0.24.0-77472dbd2f7f511169530b9b4218dfeef8741535.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-994eb35f06e27de0f7df9434fcd993e54e8022d5.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-6fca864a24e80d5fdb1e4626a79f9254691ec84f.jar" />
+    </item>
+    <item
+        jar="/home/mike/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.4.0/a0c195f14cefc7597e0bebf22c3e7b43920dcf4/okhttp-urlconnection-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0a0c195f14cefc7597e0bebf22c3e7b43920dcf4">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.4.0-61a532d542d05f3c823d05f70dddc8d79a05259d.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-edcc3474032ffcbc818662e93ae772f52e9069eb.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/android-video-player/CastCompanionLibrary-android/unspecified/release/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f73c90f5a7567d23a5b1d8fa5dc08c39a6aaf30c">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-920cad02ff59c9ec95cd4839d2c2e5a727f7f7af.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-77eab4f9961136f437e0aceaeacd3cca862619b9.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-7690574a0186cde51c66c8db4ff461720e704884.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-c4e8296dedd6e4b2dda6626b6ecdf30f647ab96d.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-3f563b5740046c0ebb9a9c0fc68b8284912109e3.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-346b01271e4d50f5ee9ec768f891f4163e4da93f.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-a83930d4a8c6496d45f153da8bf1cf1b68ee79fa.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-e4f9121892ce6a5d8d6f7989287743c29815c858.jar" />
+    </item>
+    <item
+        jar="/home/mike/data/git/android-video-player/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/home/mike/data/git/android-video-player/app/build/intermediates/pre-dexed/debug/classes-d73e66cbb45e1bfe61a65065fb3fdf4e090087ff.jar" />
+    </item>
+
+</items>

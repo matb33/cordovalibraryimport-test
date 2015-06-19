@@ -4,7 +4,7 @@ import org.apache.cordova.CordovaPlugin;
 
 //------------------------------------------------------------------------------
 // This is ultimately what we're trying to accomplish successfully:
-import com.elsewhere.testlibrary.TestLibraryThing;
+import com.nuvyyo.tabloplayer.activity.PlayerActivity;
 //------------------------------------------------------------------------------
 
 public class TestPlugin extends CordovaPlugin {}

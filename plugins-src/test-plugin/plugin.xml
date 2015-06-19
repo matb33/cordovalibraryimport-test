@@ -13,7 +13,7 @@
 	</engines>
 
 	<platform name="android">
-		<dependency id="test-library-plugin" url="file://../plugins-src/test-library-plugin" />
+		<dependency id="com.nuvyyo.tabloplayer" url="file://../plugins-src/TabloPlayer" />
 
 		<config-file target="res/xml/config.xml" parent="/*">
 			<feature name="TestPlugin">

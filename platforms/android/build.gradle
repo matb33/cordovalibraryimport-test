@@ -96,7 +96,7 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
-apply from: "cordova-plugin-crosswalk-webview/hellocordova-xwalk.gradle"
+apply from: "cordova-plugin-crosswalk-webview/cordovalibraryimport-xwalk.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()
@@ -247,8 +247,6 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
     // SUB-PROJECT DEPENDENCIES START
-    debugCompile project(path: ":test-library-plugin:cordovalibraryimport-framework", configuration: "debug")
-    releaseCompile project(path: ":test-library-plugin:cordovalibraryimport-framework", configuration: "release")
     debugCompile project(path: ":CordovaLib", configuration: "debug")
     releaseCompile project(path: ":CordovaLib", configuration: "release")
     // SUB-PROJECT DEPENDENCIES END
