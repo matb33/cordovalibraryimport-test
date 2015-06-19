@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@android:id/background">
+    <shape>
+        <corners android:radius="5dip" />
+        <stroke android:width="12dip"/>
+        <gradient
+                android:startColor="@color/tablo_medium_gray"
+                android:centerColor="@color/tablo_medium_gray"
+                android:centerY="1.0"
+                android:endColor="@color/tablo_medium_gray"
+                android:angle="270"
+        />
+    </shape>
+</item>
+
+<item android:id="@android:id/secondaryProgress">
+    <clip>
+        <shape>
+	        <corners android:radius="5dip" />
+	        <stroke android:width="12dip"/>
+	        <gradient
+	                android:startColor="@color/tablo_light_blue"
+	                android:centerColor="@color/tablo_light_blue"
+	                android:centerY="1.0"
+	                android:endColor="@color/tablo_light_blue"
+	                android:angle="270"
+	        />
+	    </shape>
+    </clip>
+</item>
+<item
+    android:id="@android:id/progress">
+    <clip>
+       <shape>
+	        <corners android:radius="5dip" />
+	        <stroke android:width="12dip"/>
+	        <gradient
+	                android:startColor="@color/tablo_blue"
+	                android:centerColor="@color/tablo_blue"
+	                android:centerY="1.0"
+	                android:endColor="@color/tablo_blue"
+	                android:angle="270"
+	        />
+	    </shape>
+    </clip>
+</item>
+
+</layer-list><!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-main/res/drawable/video_player_seek_bar_drawable.xml -->

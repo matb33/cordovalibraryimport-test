@@ -1,12 +1,12 @@
-//apply plugin: 'com.android.library'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.nuvyyo.tabloplayer"
-        minSdkVersion 16
+        // NapplicationId "com.nuvyyo.tabloplayer"
+        minSdkVersion 14
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
@@ -15,10 +15,6 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-
-	debug {
-            minifyEnabled false
         }
     }
 }

@@ -175,17 +175,13 @@ public class PlayerTestActivity extends Activity {
     }
 
     private String getUrlForStreamType(int streamTypeRadioButtonId) {
-        switch(streamTypeRadioButtonId) {
-            case R.id.radioButtonLive:
-                return PLAYLIST_URL_LIVE;
-
-            case R.id.radioButtonRec:
+        if( streamTypeRadioButtonId == R.id.radioButtonLive ) {
+            return PLAYLIST_URL_LIVE;
+        }else if( streamTypeRadioButtonId == R.id.radioButtonRec ) {
                 return PLAYLIST_URL_REC;
-
-            case R.id.radioButtonBBB:
+        }else if( streamTypeRadioButtonId == R.id.radioButtonBBB ) {
                 return PLAYLIST_URL_BIG_BUCK_BUNNY;
-
-            default:
+        }else{
                 throw new IllegalArgumentException("Invalid streamTypeButtonId: "+streamTypeRadioButtonId);
         }
     }
