@@ -15,10 +15,6 @@
                         {
                             "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"TestPlugin\"><param name=\"android-package\" value=\"com.nuvyyo.testing.testplugin.TestPlugin\" /></feature>",
-                            "count": 1
                         }
                     ]
                 }
@@ -32,13 +28,9 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.nuvyyo.testing.cordovalibraryimport"
         },
-        "test-plugin": {
-            "PACKAGE_NAME": "com.nuvyyo.testing.cordovalibraryimport"
-        }
-    },
-    "dependent_plugins": {
         "com.nuvyyo.tabloplayer": {
             "PACKAGE_NAME": "com.nuvyyo.testing.cordovalibraryimport"
         }
-    }
+    },
+    "dependent_plugins": {}
 }

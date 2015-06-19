@@ -18,15 +18,7 @@
     "com.nuvyyo.tabloplayer": {
         "source": {
             "type": "local",
-            "path": "plugins-src/TabloPlayer"
-        },
-        "is_top_level": false,
-        "variables": {}
-    },
-    "test-plugin": {
-        "source": {
-            "type": "local",
-            "path": "/home/mike/data/git/cordovalibraryimport-test/plugins-src/test-plugin"
+            "path": "/Users/mbouchard/Projects/Nuvyyo/cordovalibraryimport/plugins-src/TabloPlayer"
         },
         "is_top_level": true,
         "variables": {}
