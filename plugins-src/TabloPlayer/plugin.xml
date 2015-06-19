@@ -24,7 +24,7 @@
 		<framework src="com.squareup.okhttp:okhttp-urlconnection:2.4.0"  />
 		<!-- <framework src="framework/app" custom="true" /> -->
 
+		<framework src="framework/CastCompanionLibrary-android" custom="true" />
 		<framework src="framework/app/src/main" custom="true" />
-		<!-- <framework src="framework/CastCompanionLibrary-android/build.gradle" custom="true" type="gradleReference" /> -->
 	</platform>
 </plugin>

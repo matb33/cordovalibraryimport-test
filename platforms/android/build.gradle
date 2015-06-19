@@ -249,6 +249,8 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     debugCompile project(path: ":CordovaLib", configuration: "debug")
     releaseCompile project(path: ":CordovaLib", configuration: "release")
+    debugCompile project(path: ":com.nuvyyo.tabloplayer:cordovalibraryimport-CastCompanionLibrary-android", configuration: "debug")
+    releaseCompile project(path: ":com.nuvyyo.tabloplayer:cordovalibraryimport-CastCompanionLibrary-android", configuration: "release")
     debugCompile project(path: ":com.nuvyyo.tabloplayer:cordovalibraryimport-main", configuration: "debug")
     releaseCompile project(path: ":com.nuvyyo.tabloplayer:cordovalibraryimport-main", configuration: "release")
     compile "com.android.support:appcompat-v7:+"
