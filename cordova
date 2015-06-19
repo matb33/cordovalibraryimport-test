@@ -1,0 +1,6 @@
+#!/bin/bash
+
+BASEPATH="$(dirname "$0")"
+BASEPATH="$(cd "$BASEPATH" && pwd)"
+
+$BASEPATH/node_modules/cordova/bin/cordova "$@"

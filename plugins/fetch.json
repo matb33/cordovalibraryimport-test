@@ -1,0 +1,34 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-crosswalk-webview": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-crosswalk-webview"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "test-library-plugin": {
+        "source": {
+            "type": "local",
+            "path": "plugins-src/test-library-plugin"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "test-plugin": {
+        "source": {
+            "type": "local",
+            "path": "/Users/mbouchard/Projects/Nuvyyo/cordovalibraryimport/plugins-src/test-plugin"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
