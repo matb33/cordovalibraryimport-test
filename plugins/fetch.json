@@ -15,12 +15,20 @@
         "is_top_level": true,
         "variables": {}
     },
+    "test-plugin": {
+        "source": {
+            "type": "local",
+            "path": "/Users/mbouchard/Projects/Nuvyyo/cordovalibraryimport/plugins-src/test-plugin"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
     "com.nuvyyo.tabloplayer": {
         "source": {
             "type": "local",
-            "path": "/Users/mbouchard/Projects/Nuvyyo/cordovalibraryimport/plugins-src/TabloPlayer"
+            "path": "plugins-src/TabloPlayer"
         },
-        "is_top_level": true,
+        "is_top_level": false,
         "variables": {}
     }
 }

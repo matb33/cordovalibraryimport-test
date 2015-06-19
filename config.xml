@@ -36,7 +36,6 @@
         <allow-intent href="market:*" />
         <preference name="xwalkVersion" value="13+" />
         <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect --allow-file-access-from-files" />
-
     </platform>
 
     <platform name="ios">

@@ -11,6 +11,7 @@ module.exports.metadata =
 {
     "cordova-plugin-crosswalk-webview": "1.2.0",
     "cordova-plugin-whitelist": "1.0.1-dev",
+    "test-plugin": "1",
     "com.nuvyyo.tabloplayer": "1"
 }
 // BOTTOM OF METADATA
