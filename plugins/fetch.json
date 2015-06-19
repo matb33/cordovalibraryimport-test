@@ -26,7 +26,7 @@
     "test-plugin": {
         "source": {
             "type": "local",
-            "path": "/Users/mbouchard/Projects/Nuvyyo/cordovalibraryimport/plugins-src/test-plugin"
+            "path": "/home/mike/data/git/cordovalibraryimport-test/plugins-src/test-plugin"
         },
         "is_top_level": true,
         "variables": {}
