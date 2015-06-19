@@ -1,8 +1,0 @@
-{
-	"name": "cordovalibraryimport",
-	"version": "0.0.1",
-	"private": true,
-	"dependencies": {
-		"cordova": "5.1.1"
-	}
-}
