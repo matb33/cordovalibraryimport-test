@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+	xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="com.google.android.libraries.cast.companionlibrary"
+	version="1">
+
+	<name>CastCompanionLibrary</name>
+	<description>CastCompanionLibrary</description>
+
+	<engines>
+		<engine name="cordova" version=">=4.0.0" />
+	</engines>
+
+	<platform name="android">
+		<framework src="com.android.support:appcompat-v7:22.0.0" />
+		<framework src="com.android.support:mediarouter-v7:21.0.3" />
+		<framework src="com.google.android.gms:play-services-cast:7.5.0" />
+
+		<framework src="framework" custom="true" />
+	</platform>
+</plugin>

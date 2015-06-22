@@ -2,6 +2,7 @@
 <plugin
 	xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
 	id="test-plugin"
 	version="1">
 
@@ -13,6 +14,7 @@
 	</engines>
 
 	<platform name="android">
+		<!--<dependency id="com.google.android.libraries.cast.companionlibrary" url="file://../plugins-src/CastCompanionLibrary" />-->
 		<dependency id="com.nuvyyo.tabloplayer" url="file://../plugins-src/TabloPlayer" />
 
 		<config-file target="res/xml/config.xml" parent="/*">
@@ -22,5 +24,9 @@
 		</config-file>
 
 		<source-file src="TestPlugin.java" target-dir="src/com/nuvyyo/testing/testplugin" />
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+			<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="22" tools:overrideLibrary="com.google.android.libraries.cast.companionlibrary" />
+        </config-file>
 	</platform>
 </plugin>

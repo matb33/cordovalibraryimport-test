@@ -13,6 +13,7 @@
 	</engines>
 
 	<platform name="android">
+		<!--
 		<framework src="com.google.android.gms:play-services:7.5.0"  />
 		<framework src="com.google.code.gson:gson:1.7.2"  />
 		<framework src="com.android.support:appcompat-v7:22.0.0"  />
@@ -22,9 +23,12 @@
 		<framework src="com.squareup.picasso:picasso:2.5.2"  />
 		<framework src="com.squareup.okhttp:okhttp:2.4.0"  />
 		<framework src="com.squareup.okhttp:okhttp-urlconnection:2.4.0"  />
-		<!-- <framework src="framework/app" custom="true" /> -->
 
-		<framework src="framework/CastCompanionLibrary-android" custom="true" />
-		<framework src="framework/app/src/main" custom="true" />
+		<framework src="com.android.support:appcompat-v7:22.0.0" />
+		<framework src="com.android.support:mediarouter-v7:21.0.3" />
+		<framework src="com.google.android.gms:play-services-cast:7.5.0" />
+		-->
+		<framework src="CastCompanionLibrary" custom="true" />
+		<framework src="player/app/src/main" custom="true" />
 	</platform>
 </plugin>

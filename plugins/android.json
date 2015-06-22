@@ -22,6 +22,16 @@
                         }
                     ]
                 }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"22\" tools:overrideLibrary=\"com.google.android.libraries.cast.companionlibrary\" />",
+                            "count": 1
+                        }
+                    ]
+                }
             }
         }
     },

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/transparent" />
+
+</shape>
+<!-- From: file:/Users/mbouchard/Projects/Nuvyyo/cordovalibraryimport/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-main/res/drawable/tv_video_player_control_button_unfocused_shape.xml -->
