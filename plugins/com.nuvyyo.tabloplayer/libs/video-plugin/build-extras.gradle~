@@ -1,0 +1,5 @@
+dependencies {
+    compile "com.google.android.gms:play-services-cast:+"
+    compile "com.android.support:appcompat-v7:+"
+    compile "com.android.support:mediarouter-v7:+"
+}

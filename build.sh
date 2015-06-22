@@ -6,9 +6,13 @@ BASEPATH="$(cd "$BASEPATH" && pwd)"
 cd $BASEPATH
 
 cordova plugin rm test-plugin
-#cordova plugin rm com.nuvyyo.tabloplayer
-#rm -rf $BASEPATH/platforms/android/TabloPlayer
+
+rm -rf $BASEPATH/platforms/android/com.google.android.libraries.cast.companionlibrary
+rm -rf $BASEPATH/platforms/android/com.nuvyyo.tabloplayer
+
 rm -rf $BASEPATH/plugins/com.nuvyyo.tabloplayer
+rm -rf $BASEPATH/plugins/test-plugin
+rm -rf $BASEPATH/plugins/com.google.android.libraries.cast.companionlibrary
+
 cordova plugin add $BASEPATH/plugins-src/test-plugin
-#cordova plugin add $BASEPATH/plugins-src/TabloPlayer
 export ANDROID_BUILD="gradle"; cordova build android

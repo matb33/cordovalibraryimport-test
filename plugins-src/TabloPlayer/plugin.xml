@@ -1,30 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<plugin
-	xmlns="http://apache.org/cordova/ns/plugins/1.0"
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	id="com.nuvyyo.tabloplayer"
-	version="1">
+<?xml version="1.0" encoding="UTF-8" ?>
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+    id="com.nuvyyo.tabloplayer"
+    version="0.0.1">
+  <engines>
+    <engine name="cordova" version=">=3.7.2" />
+  </engines>
 
-	<name>TabloVideoPlayer Library Plugin</name>
-	<description>TabloVideoPlayer Library Plugin</description>
+  <name>Tablo Video Player</name>
 
-	<engines>
-		<engine name="cordova" version=">=4.0.0" />
-	</engines>
+  <platform name="android">
+    <dependency id="com.google.android.libraries.cast.companionlibrary" url="file://../plugins-src/CastCompanionLibrary" />
 
-	<platform name="android">
-		<framework src="com.google.android.gms:play-services:7.5.0"  />
-		<framework src="com.google.code.gson:gson:1.7.2"  />
-		<framework src="com.android.support:appcompat-v7:22.0.0"  />
-		<framework src="com.android.support:mediarouter-v7:21.0.3"  />
-		<framework src="io.reactivex:rxjava:1.0.10"  />
-		<framework src="io.reactivex:rxandroid:0.24.0"  />
-		<framework src="com.squareup.picasso:picasso:2.5.2"  />
-		<framework src="com.squareup.okhttp:okhttp:2.4.0"  />
-		<framework src="com.squareup.okhttp:okhttp-urlconnection:2.4.0"  />
-		<!-- <framework src="framework/app" custom="true" /> -->
+    <config-file target="AndroidManifest.xml" parent="/manifest">
+      <uses-permission android:name="android.permission.INTERNET" />
+      <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    </config-file>
 
-		<framework src="framework/CastCompanionLibrary-android" custom="true" />
-		<framework src="framework/app/src/main" custom="true" />
-	</platform>
+    <config-file target="AndroidManifest.xml" parent="/manifest/application">
+      <activity
+            android:name=".activity.PlayerTestActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>  
+        
+        <activity
+            android:name=".activity.LocalPlayerActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+        </activity>
+
+        <activity
+            android:name=".activity.CastPlayerActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+        </activity>
+
+        <!-- =============================================================== -->
+        <!-- Following Receiver + Services Required for CastCompanionLibrary -->
+
+        <receiver
+            android:name="com.google.android.libraries.cast.companionlibrary.remotecontrol.VideoIntentReceiver" >
+            <intent-filter>
+                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+                <action
+                    android:name="com.google.android.libraries.cast.companionlibrary.action.toggleplayback" />
+                <action
+                    android:name="com.google.android.libraries.cast.companionlibrary.action.stop" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.libraries.cast.companionlibrary.notification.VideoCastNotificationService"
+            android:exported="false" >
+            <intent-filter>
+                <action
+                    android:name="com.google.android.libraries.cast.companionlibrary.action.toggleplayback" />
+                <action
+                    android:name="com.google.android.libraries.cast.companionlibrary.action.stop" />
+                <action
+                    android:name="com.google.android.libraries.cast.companionlibrary.action.notificationvisibility" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.google.android.libraries.cast.companionlibrary.cast.reconnection.ReconnectionService" />
+    </config-file>
+
+    <!-- make sure these are added as dependencies under libs/video-plugin/build-extras.gradle -->
+    <framework src="com.google.android.gms:play-services:7.5.0" />
+    <framework src="com.google.code.gson:gson:1.7.2" />
+    <framework src="com.android.support:appcompat-v7:22.0.0" />
+    <framework src="com.android.support:mediarouter-v7:21.0.3" />
+    <framework src="io.reactivex:rxjava:1.0.10" />
+    <framework src="io.reactivex:rxandroid:0.24.0" />
+    <framework src="com.squareup.picasso:picasso:2.5.2" />
+    <framework src="com.squareup.okhttp:okhttp:2.4.0" />
+    <framework src="com.squareup.okhttp:okhttp-urlconnection:2.4.0" />
+
+    <framework src="libs/video-plugin/" custom="true" />
+    
+  </platform>
 </plugin>

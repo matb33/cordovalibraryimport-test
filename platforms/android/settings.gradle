@@ -1,5 +1,5 @@
 // GENERATED FILE - DO NOT EDIT
 include ":"
 include ":CordovaLib"
-include ":com.nuvyyo.tabloplayer:cordovalibraryimport-CastCompanionLibrary-android"
-include ":com.nuvyyo.tabloplayer:cordovalibraryimport-main"
+include ":com.google.android.libraries.cast.companionlibrary:cordovalibraryimport-libs"
+include ":com.nuvyyo.tabloplayer:cordovalibraryimport-video-plugin"

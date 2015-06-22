@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <include
+        layout="@layout/player_controls"
+        android:id="@+id/playerControls"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:fitsSystemWindows="true" />
+
+    <com.nuvyyo.tabloplayer.bif.SnapshotView
+        android:id="@+id/snapshotView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/playerControls"
+        android:layout_marginBottom="100dp"
+        android:background="#99000000" />
+
+</RelativeLayout><!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-video-plugin/res/layout/inc_player_main_content.xml -->

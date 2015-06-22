@@ -22,6 +22,46 @@
                         }
                     ]
                 }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/manifest": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />",
+                            "count": 1
+                        }
+                    ],
+                    "/manifest/application": [
+                        {
+                            "xml": "<activity android:label=\"@string/app_name\" android:name=\".activity.PlayerTestActivity\" android:theme=\"@style/Theme.AppCompat.Light.NoActionBar\"><intent-filter><action android:name=\"android.intent.action.MAIN\" /><category android:name=\"android.intent.category.LAUNCHER\" /></intent-filter></activity>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:label=\"@string/app_name\" android:launchMode=\"singleTask\" android:name=\".activity.LocalPlayerActivity\"></activity>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:label=\"@string/app_name\" android:launchMode=\"singleTask\" android:name=\".activity.CastPlayerActivity\"></activity>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:name=\"com.google.android.libraries.cast.companionlibrary.remotecontrol.VideoIntentReceiver\"><intent-filter><action android:name=\"android.media.AUDIO_BECOMING_NOISY\" /><action android:name=\"android.intent.action.MEDIA_BUTTON\" /><action android:name=\"com.google.android.libraries.cast.companionlibrary.action.toggleplayback\" /><action android:name=\"com.google.android.libraries.cast.companionlibrary.action.stop\" /></intent-filter></receiver>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<service android:exported=\"false\" android:name=\"com.google.android.libraries.cast.companionlibrary.notification.VideoCastNotificationService\"><intent-filter><action android:name=\"com.google.android.libraries.cast.companionlibrary.action.toggleplayback\" /><action android:name=\"com.google.android.libraries.cast.companionlibrary.action.stop\" /><action android:name=\"com.google.android.libraries.cast.companionlibrary.action.notificationvisibility\" /></intent-filter></service>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<service android:name=\"com.google.android.libraries.cast.companionlibrary.cast.reconnection.ReconnectionService\" />",
+                            "count": 1
+                        }
+                    ]
+                }
             }
         }
     },
@@ -37,6 +77,9 @@
         }
     },
     "dependent_plugins": {
+        "com.google.android.libraries.cast.companionlibrary": {
+            "PACKAGE_NAME": "com.nuvyyo.testing.cordovalibraryimport"
+        },
         "com.nuvyyo.tabloplayer": {
             "PACKAGE_NAME": "com.nuvyyo.testing.cordovalibraryimport"
         }

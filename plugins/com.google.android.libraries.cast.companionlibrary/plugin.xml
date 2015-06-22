@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+    id="com.google.android.libraries.cast.companionlibrary"
+    version="0.0.1">
+  <engines>
+    <engine name="cordova" version=">=3.7.2" />
+  </engines>
+
+  <name>Cast Companion Library</name>
+
+  <platform name="android">
+    <framework src="libs/" custom="true" />
+    <!-- make sure these are added as dependencies under libs/video-plugin/build-extras.gradle -->
+    <framework src="com.google.android.gms:play-services:7.5.0" />
+    <framework src="com.android.support:appcompat-v7:22.0.0" />
+    <framework src="com.android.support:mediarouter-v7:21.0.3" />
+
+    
+  </platform>
+</plugin>

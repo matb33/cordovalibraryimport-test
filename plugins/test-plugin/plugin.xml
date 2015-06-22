@@ -9,7 +9,7 @@
 	<description>Test Plugin</description>
 
 	<engines>
-		<engine name="cordova" version=">=4.0.0" />
+		<engine name="cordova" version=">=3.7.2" />
 	</engines>
 
 	<platform name="android">
