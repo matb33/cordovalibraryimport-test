@@ -37,15 +37,15 @@
                     ],
                     "/manifest/application": [
                         {
-                            "xml": "<activity android:label=\"@string/app_name\" android:name=\".activity.PlayerTestActivity\" android:theme=\"@style/Theme.AppCompat.Light.NoActionBar\"><intent-filter><action android:name=\"android.intent.action.MAIN\" /><category android:name=\"android.intent.category.LAUNCHER\" /></intent-filter></activity>",
+                            "xml": "<activity android:label=\"@string/app_name\" android:name=\"com.nuvyyo.tabloplayer.activity.PlayerTestActivity\" android:theme=\"@style/Theme.AppCompat.Light.NoActionBar\"><intent-filter><action android:name=\"android.intent.action.MAIN\" /><category android:name=\"android.intent.category.LAUNCHER\" /></intent-filter></activity>",
                             "count": 1
                         },
                         {
-                            "xml": "<activity android:label=\"@string/app_name\" android:launchMode=\"singleTask\" android:name=\".activity.LocalPlayerActivity\"></activity>",
+                            "xml": "<activity android:label=\"@string/app_name\" android:launchMode=\"singleTask\" android:name=\"com.nuvyyo.tabloplayer.activity.LocalPlayerActivity\"></activity>",
                             "count": 1
                         },
                         {
-                            "xml": "<activity android:label=\"@string/app_name\" android:launchMode=\"singleTask\" android:name=\".activity.CastPlayerActivity\"></activity>",
+                            "xml": "<activity android:label=\"@string/app_name\" android:launchMode=\"singleTask\" android:name=\"com.nuvyyo.tabloplayer.activity.CastPlayerActivity\"></activity>",
                             "count": 1
                         },
                         {

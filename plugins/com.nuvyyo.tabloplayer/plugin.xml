@@ -9,7 +9,7 @@
   <name>Tablo Video Player</name>
 
   <platform name="android">
-    <!-- <dependency id="com.google.android.libraries.cast.companionlibrary" url="file://../plugins-src/CastCompanionLibrary" /> -->
+    <hook type="before_build" src="scripts/publish_ccl_local.sh" />
 
     <config-file target="AndroidManifest.xml" parent="/manifest">
       <uses-permission android:name="android.permission.INTERNET" />
@@ -17,8 +17,8 @@
     </config-file>
 
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
-      <activity
-            android:name=".activity.PlayerTestActivity"
+        <activity
+            android:name="com.nuvyyo.tabloplayer.activity.PlayerTestActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
@@ -29,13 +29,13 @@
         </activity>
 
         <activity
-            android:name=".activity.LocalPlayerActivity"
+            android:name="com.nuvyyo.tabloplayer.activity.LocalPlayerActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask">
         </activity>
 
         <activity
-            android:name=".activity.CastPlayerActivity"
+            android:name="com.nuvyyo.tabloplayer.activity.CastPlayerActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask">
         </activity>
