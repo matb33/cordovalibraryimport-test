@@ -7,4 +7,4 @@
     <item   android:drawable="@drawable/tv_video_player_control_button_unfocused_shape"
             android:state_focused="false" />
 </selector>
-<!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/res/drawable/tv_video_player_control_button_background.xml -->
+<!-- From: file:/media/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/res/drawable/tv_video_player_control_button_background.xml -->

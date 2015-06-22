@@ -15,4 +15,4 @@
   limitations under the License.
   -->
 <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
-    android:src="@drawable/ic_pause_grey600_48dp" /><!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.google.android.libraries.cast.companionlibrary/cordovalibraryimport-libs/res/drawable/ic_mini_controller_pause.xml --><!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/build/intermediates/exploded-aar/android.com.google.android.libraries.cast.companionlibrary/cordovalibraryimport-libs/unspecified/release/res/drawable/ic_mini_controller_pause.xml -->
+    android:src="@drawable/ic_pause_grey600_48dp" /><!-- From: file:/media/mike/data/git/cordovalibraryimport-test/plugins-src/TabloPlayer/companionlibrary/res/drawable/ic_mini_controller_pause.xml --><!-- From: file:/media/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/build/intermediates/exploded-aar/com.google.android.libraries.cast/companionlibrary/1.0.0/res/drawable/ic_mini_controller_pause.xml -->

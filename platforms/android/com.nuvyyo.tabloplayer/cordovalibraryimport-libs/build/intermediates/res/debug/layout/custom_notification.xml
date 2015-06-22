@@ -88,4 +88,4 @@
         android:maxLines="1"
         android:textAppearance="@style/android:TextAppearance.StatusBar.EventContent"/>
 
-</RelativeLayout><!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.google.android.libraries.cast.companionlibrary/cordovalibraryimport-libs/res/layout/custom_notification.xml --><!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/build/intermediates/exploded-aar/android.com.google.android.libraries.cast.companionlibrary/cordovalibraryimport-libs/unspecified/release/res/layout/custom_notification.xml -->
+</RelativeLayout><!-- From: file:/media/mike/data/git/cordovalibraryimport-test/plugins-src/TabloPlayer/companionlibrary/res/layout/custom_notification.xml --><!-- From: file:/media/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/build/intermediates/exploded-aar/com.google.android.libraries.cast/companionlibrary/1.0.0/res/layout/custom_notification.xml -->

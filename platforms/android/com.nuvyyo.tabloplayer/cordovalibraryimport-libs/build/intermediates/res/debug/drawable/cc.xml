@@ -32,4 +32,4 @@
           android:drawable="@drawable/ic_closed_caption_grey600_36dp"/>
     <!-- default -->
     <item android:drawable="@drawable/ic_closed_caption_white_36dp"/>
-</selector><!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.google.android.libraries.cast.companionlibrary/cordovalibraryimport-libs/res/drawable/cc.xml --><!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/build/intermediates/exploded-aar/android.com.google.android.libraries.cast.companionlibrary/cordovalibraryimport-libs/unspecified/release/res/drawable/cc.xml -->
+</selector><!-- From: file:/media/mike/data/git/cordovalibraryimport-test/plugins-src/TabloPlayer/companionlibrary/res/drawable/cc.xml --><!-- From: file:/media/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/build/intermediates/exploded-aar/com.google.android.libraries.cast/companionlibrary/1.0.0/res/drawable/cc.xml -->

@@ -11,4 +11,4 @@
         android:id="@+id/chkClosedCaptions"
         android:layout_centerInParent="true"
         android:layout_margin="15dp" />
-</RelativeLayout><!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/res/layout-television/view_leanback_dialog.xml -->
+</RelativeLayout><!-- From: file:/media/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/res/layout-television/view_leanback_dialog.xml -->

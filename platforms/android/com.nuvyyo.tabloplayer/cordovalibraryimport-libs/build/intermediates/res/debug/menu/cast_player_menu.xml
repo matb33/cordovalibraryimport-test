@@ -24,4 +24,4 @@
         app:showAsAction="always"/>
 
 </menu>
-<!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.google.android.libraries.cast.companionlibrary/cordovalibraryimport-libs/res/menu/cast_player_menu.xml --><!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/build/intermediates/exploded-aar/android.com.google.android.libraries.cast.companionlibrary/cordovalibraryimport-libs/unspecified/release/res/menu/cast_player_menu.xml -->
+<!-- From: file:/media/mike/data/git/cordovalibraryimport-test/plugins-src/TabloPlayer/companionlibrary/res/menu/cast_player_menu.xml --><!-- From: file:/media/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/build/intermediates/exploded-aar/com.google.android.libraries.cast/companionlibrary/1.0.0/res/menu/cast_player_menu.xml -->

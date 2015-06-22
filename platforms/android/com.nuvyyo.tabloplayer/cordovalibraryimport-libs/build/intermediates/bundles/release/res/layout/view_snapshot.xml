@@ -15,4 +15,4 @@
         android:background="@drawable/background_snapshot_timestamp"
         android:text="00:00"
         />
-</RelativeLayout><!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/res/layout/view_snapshot.xml -->
+</RelativeLayout><!-- From: file:/media/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/res/layout/view_snapshot.xml -->

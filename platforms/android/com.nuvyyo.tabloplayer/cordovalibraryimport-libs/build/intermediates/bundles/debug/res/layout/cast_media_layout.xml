@@ -68,4 +68,4 @@
         android:layout_below="@+id/lblTitle"
         android:layout_alignLeft="@+id/lblTitle"
         android:layout_alignStart="@+id/lblTitle" />
-</RelativeLayout><!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/res/layout/cast_media_layout.xml -->
+</RelativeLayout><!-- From: file:/media/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/res/layout/cast_media_layout.xml -->

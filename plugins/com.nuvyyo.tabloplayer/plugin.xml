@@ -9,7 +9,7 @@
   <name>Tablo Video Player</name>
 
   <platform name="android">
-    <dependency id="com.google.android.libraries.cast.companionlibrary" url="file://../plugins-src/CastCompanionLibrary" />
+    <!-- <dependency id="com.google.android.libraries.cast.companionlibrary" url="file://../plugins-src/CastCompanionLibrary" /> -->
 
     <config-file target="AndroidManifest.xml" parent="/manifest">
       <uses-permission android:name="android.permission.INTERNET" />
@@ -26,8 +26,8 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>  
-        
+        </activity>
+
         <activity
             android:name=".activity.LocalPlayerActivity"
             android:label="@string/app_name"
@@ -82,8 +82,9 @@
     <framework src="com.squareup.picasso:picasso:2.5.2" />
     <framework src="com.squareup.okhttp:okhttp:2.4.0" />
     <framework src="com.squareup.okhttp:okhttp-urlconnection:2.4.0" />
+    <framework src="com.google.android.libraries.cast:companionlibrary:1.0.0@aar" />
 
     <framework src="libs/" custom="true" />
-    
+
   </platform>
 </plugin>

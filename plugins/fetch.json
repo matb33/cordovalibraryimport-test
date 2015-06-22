@@ -19,9 +19,7 @@
         "source": {
             "type": "local",
             "path": "plugins-src/TabloPlayer"
-        },
-        "is_top_level": false,
-        "variables": {}
+        }
     },
     "com.google.android.libraries.cast.companionlibrary": {
         "source": {
@@ -34,9 +32,7 @@
     "test-plugin": {
         "source": {
             "type": "local",
-            "path": "/git/cordovalibraryimport-test/plugins-src/test-plugin"
-        },
-        "is_top_level": true,
-        "variables": {}
+            "path": "/media/mike/data/git/cordovalibraryimport-test/plugins-src/test-plugin"
+        }
     }
 }

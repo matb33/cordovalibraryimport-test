@@ -80,4 +80,4 @@
             android:title="@string/ccl_prefs_caption_background_opacity_title" />
     </PreferenceCategory>
 
-</PreferenceScreen><!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.google.android.libraries.cast.companionlibrary/cordovalibraryimport-libs/res/xml/caption_preference.xml --><!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/build/intermediates/exploded-aar/android.com.google.android.libraries.cast.companionlibrary/cordovalibraryimport-libs/unspecified/release/res/xml/caption_preference.xml -->
+</PreferenceScreen><!-- From: file:/media/mike/data/git/cordovalibraryimport-test/plugins-src/TabloPlayer/companionlibrary/res/xml/caption_preference.xml --><!-- From: file:/media/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/build/intermediates/exploded-aar/com.google.android.libraries.cast/companionlibrary/1.0.0/res/xml/caption_preference.xml -->

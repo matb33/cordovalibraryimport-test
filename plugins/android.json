@@ -77,9 +77,6 @@
         }
     },
     "dependent_plugins": {
-        "com.google.android.libraries.cast.companionlibrary": {
-            "PACKAGE_NAME": "com.nuvyyo.testing.cordovalibraryimport"
-        },
         "com.nuvyyo.tabloplayer": {
             "PACKAGE_NAME": "com.nuvyyo.testing.cordovalibraryimport"
         }

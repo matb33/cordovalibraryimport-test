@@ -11,4 +11,4 @@
     android:paddingRight="15dp"
     android:paddingTop="10dp"
     android:paddingBottom="10dp"
-    android:textAlignment="center" /><!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/res/layout/view_closed_caption_line.xml -->
+    android:textAlignment="center" /><!-- From: file:/media/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/res/layout/view_closed_caption_line.xml -->

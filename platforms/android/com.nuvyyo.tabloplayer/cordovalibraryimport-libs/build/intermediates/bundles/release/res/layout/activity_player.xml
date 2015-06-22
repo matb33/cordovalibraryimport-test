@@ -76,4 +76,4 @@
         android:layout_height="match_parent"
         android:fitsSystemWindows="true" />
 </RelativeLayout>
-<!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/res/layout/activity_player.xml -->
+<!-- From: file:/media/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/res/layout/activity_player.xml -->

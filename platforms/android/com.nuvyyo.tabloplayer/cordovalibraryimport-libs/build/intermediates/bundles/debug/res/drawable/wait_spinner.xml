@@ -12,4 +12,4 @@
             android:interpolator="@android:anim/accelerate_decelerate_interpolator" />
     </item>
 
-</layer-list><!-- From: file:/home/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/res/drawable/wait_spinner.xml -->
+</layer-list><!-- From: file:/media/mike/data/git/cordovalibraryimport-test/platforms/android/com.nuvyyo.tabloplayer/cordovalibraryimport-libs/res/drawable/wait_spinner.xml -->
