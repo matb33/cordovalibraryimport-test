@@ -251,8 +251,8 @@ dependencies {
     releaseCompile project(path: ":CordovaLib", configuration: "release")
     debugCompile project(path: ":com.google.android.libraries.cast.companionlibrary:cordovalibraryimport-libs", configuration: "debug")
     releaseCompile project(path: ":com.google.android.libraries.cast.companionlibrary:cordovalibraryimport-libs", configuration: "release")
-    debugCompile project(path: ":com.nuvyyo.tabloplayer:cordovalibraryimport-video-plugin", configuration: "debug")
-    releaseCompile project(path: ":com.nuvyyo.tabloplayer:cordovalibraryimport-video-plugin", configuration: "release")
+    debugCompile project(path: ":com.nuvyyo.tabloplayer:cordovalibraryimport-libs", configuration: "debug")
+    releaseCompile project(path: ":com.nuvyyo.tabloplayer:cordovalibraryimport-libs", configuration: "release")
     compile "com.google.android.gms:play-services:7.5.0"
     compile "com.android.support:appcompat-v7:22.0.0"
     compile "com.android.support:mediarouter-v7:21.0.3"

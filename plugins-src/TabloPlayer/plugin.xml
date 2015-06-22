@@ -3,7 +3,7 @@
     id="com.nuvyyo.tabloplayer"
     version="0.0.1">
   <engines>
-    <engine name="cordova" version=">=3.7.2" />
+    <engine name="cordova" version=">=4.0.2" />
   </engines>
 
   <name>Tablo Video Player</name>
@@ -83,7 +83,7 @@
     <framework src="com.squareup.okhttp:okhttp:2.4.0" />
     <framework src="com.squareup.okhttp:okhttp-urlconnection:2.4.0" />
 
-    <framework src="libs/video-plugin/" custom="true" />
+    <framework src="libs/" custom="true" />
     
   </platform>
 </plugin>

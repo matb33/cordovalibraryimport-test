@@ -1,7 +1,0 @@
-<factorypath>
-    <factorypathentry kind="WKSPJAR" id="/TabloVideoPlayer/libs/butterknife-6.1.0.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="WKSPJAR" id="/TabloVideoPlayer/libs/dagger-1.2.2.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="WKSPJAR" id="/TabloVideoPlayer/libs/dagger-compiler-1.2.2.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="WKSPJAR" id="/TabloVideoPlayer/libs/javax.inject-1.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="WKSPJAR" id="/TabloVideoPlayer/libs/javawriter-2.5.1.jar" enabled="true" runInBatchMode="false"/>
-</factorypath>

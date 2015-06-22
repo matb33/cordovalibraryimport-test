@@ -2,4 +2,4 @@
 include ":"
 include ":CordovaLib"
 include ":com.google.android.libraries.cast.companionlibrary:cordovalibraryimport-libs"
-include ":com.nuvyyo.tabloplayer:cordovalibraryimport-video-plugin"
+include ":com.nuvyyo.tabloplayer:cordovalibraryimport-libs"
