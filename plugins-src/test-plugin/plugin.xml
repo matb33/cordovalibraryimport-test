@@ -7,6 +7,9 @@
 
 	<name>Test Plugin</name>
 	<description>Test Plugin</description>
+	<js-module src="www/TabloVideoPlayer.js" name="TabloVideoPlayer">
+        <clobbers target="TabloVideoPlayer" />
+    </js-module>
 
 	<engines>
 		<engine name="cordova" version=">=4.0.2" />
@@ -16,11 +19,13 @@
 		<dependency id="com.nuvyyo.tabloplayer" url="file://../plugins-src/TabloPlayer" />
 
 		<config-file target="res/xml/config.xml" parent="/*">
-			<feature name="TestPlugin">
-				<param name="android-package" value="com.nuvyyo.testing.testplugin.TestPlugin"/>
-			</feature>
-		</config-file>
+            <feature name="TabloVideoPlayer">
+                <param name="android-package" value="com.nuvyyo.cordova.plugins.tablovideoplayer.TabloVideoPlayer"/>
+            </feature>
+        </config-file>
 
-		<source-file src="TestPlugin.java" target-dir="src/com/nuvyyo/testing/testplugin" />
+
+		<source-file src="TabloVideoPlayer.java" target-dir="src/com/nuvyyo/cordova/plugins/tablovideoplayer" />
+		<source-file src="PlayerAPK.java" target-dir="src/com/nuvyyo/cordova/plugins/tablovideoplayer" />
 	</platform>
 </plugin>
